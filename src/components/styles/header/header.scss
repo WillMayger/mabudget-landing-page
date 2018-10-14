@@ -57,6 +57,7 @@ header {
     float: right;
     display: inline-block;
     text-align: right;
+    max-width: calc(100% - 50px);
 
     a {
       padding: 0 5px;
@@ -67,6 +68,7 @@ header {
       position: relative;
       z-index: 5;
       pointer-events: auto;
+      width: 50%;
       
       img {
         max-width: 156px;
