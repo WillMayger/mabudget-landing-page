@@ -1,0 +1,25 @@
+.content-body {
+  flex: 100%;
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+  padding-top: 30px;
+  .section {
+    // opacity: 0; JS style, see section.js
+    // top: 100px; JS style, see section.js
+    position: relative;
+    transition: 1s all;
+    padding: 10px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    @media(min-width: 768px) {
+      padding: 20px;
+    }
+
+    @media (min-width: 1200px) {
+      max-width: 700px;
+    }
+  }
+
+
+}
