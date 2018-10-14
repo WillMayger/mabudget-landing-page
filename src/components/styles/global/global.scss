@@ -98,4 +98,10 @@ body {
     }
   }
   }
+
+  a {
+    cursor: pointer;
+    line-height: inherit;
+    height: 100%;
+  }
 }

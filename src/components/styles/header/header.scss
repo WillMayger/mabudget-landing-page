@@ -58,13 +58,24 @@ header {
     display: inline-block;
     text-align: right;
 
-    img {
-      max-width: 156px;
-      width: auto;
-      height: auto;
+    a {
       padding: 0 5px;
-      top: -1px;
       cursor: pointer;
+      display: inline-block;
+      width: auto;
+      vertical-align: middle;
+      position: relative;
+      z-index: 5;
+      pointer-events: auto;
+      
+      img {
+        max-width: 156px;
+        display: block;
+        top: -1px;
+        width: 100%;
+        pointer-events: none;
+
+      }
     }
   }
 }

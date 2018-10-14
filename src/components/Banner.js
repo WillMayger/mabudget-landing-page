@@ -46,8 +46,12 @@ export default class Banner extends Component {
         <img src={template} alt="MaBudget application" className="template" />
         <SubHeading center={width < 1200}> Download on your phone now! </SubHeading>
         <div className="get-app">
-          <img src={play} alt="Download MaBudget on the play store now" title="Download MaBudget on the play store now" />
-          <img src={app} alt="Download MaBudget on the app store now" title="Download MaBudget on the app store now" />
+          <a href="https://play.google.com/store/apps/details?id=com.WebLancer.MaBudget" target="_blank" rel="noopener noreferrer">
+            <img src={play} alt="Download MaBudget on the play store now" title="Download MaBudget on the play store now" />
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.WebLancer.MaBudget" target="_blank" rel="noopener noreferrer">
+            <img src={app} alt="Download MaBudget on the app store now" title="Download MaBudget on the app store now" />
+          </a>
         </div>
         <Paragraph className="scroll-down" center={width < 1200}>Scroll down</Paragraph>
       </div>
