@@ -49,7 +49,7 @@ export default class Banner extends Component {
           <a href="https://play.google.com/store/apps/details?id=com.WebLancer.MaBudget" target="_blank" rel="noopener noreferrer">
             <img src={play} alt="Download MaBudget on the play store now" title="Download MaBudget on the play store now" />
           </a>
-          <a href="https://play.google.com/store/apps/details?id=com.WebLancer.MaBudget" target="_blank" rel="noopener noreferrer">
+          <a href="https://itunes.apple.com/us/app/mabudget/id1439368910#?platform=iphone" target="_blank" rel="noopener noreferrer">
             <img src={app} alt="Download MaBudget on the app store now" title="Download MaBudget on the app store now" />
           </a>
         </div>
